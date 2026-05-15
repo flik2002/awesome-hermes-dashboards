@@ -1,0 +1,74 @@
+# GNU General Public License (GPL) Version 3 Summary
+
+The GNU GPL v3 is a **free, copyleft license** designed to guarantee users the freedom to share and change all versions of a program. It ensures software remains free for all users, regardless of whether it is distributed for a fee or gratis.
+
+## 1. Core Definitions
+*   **The Program:** Any copyrightable work licensed under the GPL.
+*   **Modify:** To copy from or adapt all or part of the work in a way requiring copyright permission.
+*   **Convey:** Any propagation that enables other parties to make or receive copies (excluding mere network interaction).
+*   **Corresponding Source:** All source code needed to generate, install, and run the object code, including scripts to control those activities. It excludes "System Libraries."
+
+## 2. Key Requirements for Distribution
+If you distribute (convey) the software, you must adhere to the following:
+
+### Verbatim Copies (Section 4)
+*   Must include an appropriate copyright notice.
+*   Must keep all "no warranty" notices intact.
+*   Must provide a copy of this License to the recipient.
+
+### Modified Source Versions (Section 5)
+*   **Notice:** Must carry prominent notices stating you modified it and the date.
+*   **Licensing:** The entire work must be licensed under GPL v3 as a whole.
+*   **Interfaces:** If the program has interactive user interfaces, they must display "Appropriate Legal Notices."
+
+### Non-Source Forms / Object Code (Section 6)
+To convey object code, you must also provide the **Corresponding Source** via:
+*   A physical medium.
+*   A written offer (valid for 3+ years) to provide the source.
+*   Access from a designated network server at no charge.
+
+## 3. User Protections & Anti-Circumvention
+*   **Anti-Tivoization:** If a "User Product" (consumer device) uses the software, the distributor must provide **Installation Information** (keys/methods) so the user can install modified versions of the software.
+*   **Legal Rights:** No covered work shall be deemed part of an "effective technological measure" under anti-circumvention laws (like the WIPO treaty). By licensing under GPL, authors waive the power to forbid circumvention of such measures.
+
+## 4. Patents & Licensing
+*   **Automatic License:** Each contributor grants a non-exclusive, worldwide, royalty-free patent license to users.
+*   **No Further Restrictions:** You cannot impose additional fees, royalties, or litigation restrictions (like patent lawsuits) on the exercise of rights granted by the license.
+*   **Discriminatory Agreements:** You cannot enter into patent deals with third parties that discriminate against specific recipients of the software.
+
+## 5. Termination & Reinstatement (Section 8)
+Violating the license automatically terminates your rights. However, rights can be reinstated:
+*   **Provisionally:** If you cease all violations.
+*   **Permanently:** If the copyright holder doesn't notify you within 60 days of cessation, or if you fix the violation within 30 days of your first-ever notice of violation.
+
+## 6. Important Legal Disclaimers
+
+### No Warranty
+> "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW... THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU."
+
+### Limitation of Liability
+> "IN NO EVENT... WILL ANY COPYRIGHT HOLDER... BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM."
+
+## 7. Implementation Guide
+To apply GPL v3 to a new program, developers should attach the following notice to every source file:
+
+```text
+Copyright (C) <year> <name of author>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+```
+
+### Additional Notes
+*   **Affero GPL (AGPL):** GPL v3 allows linking with works under the GNU Affero General Public License v3.
+*   **Proprietary Linking:** GPL does **not** permit incorporating the program into proprietary programs. For libraries that need to link with proprietary apps, the **GNU Lesser General Public License (LGPL)** is recommended.
